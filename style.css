@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* настройка шапки сайта */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: rgb(145, 93, 93);
+    padding-top: 35px;
+    padding-bottom: 35px;
+    top: 0;
+    position: sticky;
+}
+
+header>div {
+    font-size: 30px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+header>nav>a {
+    text-decoration: none;
+    font-size: 26px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* секция с героем */
+.hero {
+    text-align: center;
+    background-color: rgb(252, 252, 252);
+}
+
+.hero img {
+    width: 150px;
+    /* border-radius: 50%; */
+}
+
+.hero h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+}
+
+.hero p {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.hero hr {
+    border: none;
+    border-top: 1px solid rgb(181, 184, 187);
+}
+
+/* секция мои увлечения */
+.about {
+    background-color: rgb(255, 255, 255);
+}
+
+section>h3 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.hobby {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 35px;
+    list-style: none;
+}
+
+.hobby li {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    border-radius: 40px;
+    box-shadow: 0px 1px 59px -1px rgba(18, 32, 43, 0.3);
+}
+
+.about>hr {
+    border: none;
+    border-top: 1px solid rgb(181, 184, 187);
+    ;
+}
+
+/* секция Навыки */
+.skills>h3 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    background-color: rgb(241, 241, 241);
+}
+
+/* 1 карточка */
+.First {
+    background-color: rgb(255, 255, 255);
+    width: 180px;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 40px;
+    box-shadow: 0px 1px 59px -1px rgba(34, 60, 80, 0.3);
+}
+
+.list_skills {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.list_skills hr {
+    border: none;
+    border-top: 1px solid rgb(181, 184, 187);
+    ;
+}
+
+.First h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.First p {
+    font-size: 18px;
+}
+
+/* 2 карточка*/
+.Second {
+    background-color: rgb(255, 255, 255);
+    width: 180px;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 40px;
+    box-shadow: 0px 1px 59px -1px rgba(34, 60, 80, 0.3);
+}
+
+.Second h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.Second p {
+    font-size: 18px;
+}
+
+/* 3 карточка */
+.Therd {
+    background-color: rgb(255, 255, 255);
+    width: 180px;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 40px;
+    box-shadow: 0px 1px 59px -1px rgba(34, 60, 80, 0.3);
+}
+
+.Therd h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.Therd p {
+    font-size: 18px;
+}
+
+/* Иконка смайлик */
+.Item {
+    font-size: 3rem;
+}
+
+.learned {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    background-color: rgb(255, 253, 253)
+}
+
+.picter {
+    background-color: rgb(199, 198, 198);
+    text-align: center;
+    font-size: 2rem;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card1 h3 {
+    color: brown;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.card1 {
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    text-align: center;
+    padding: 0 0;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 40px;
+    transition: all 0.5;
+    overflow: hidden;
+    box-shadow: 0px 1px 59px -1px rgba(0, 0, 0, 0.3);
+}
+
+.card1:hover {
+    transform: translateY(-17px);
+}
+
+.Learned {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.card2 h3 {
+    color: brown;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.card2 {
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    text-align: center;
+    padding: 0 0;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 40px;
+    transition: all 0.5;
+    overflow: hidden;
+    box-shadow: 0px 1px 59px -1px rgba(0, 0, 0, 0.3);
+}
+
+.card2:hover {
+    transform: translateY(-17px);
+}
+
+.card3 {
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    text-align: center;
+    padding: 0 0;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 40px;
+    transition: all 0.5;
+    overflow: hidden;
+    box-shadow: 0px 1px 59px -1px rgba(0, 0, 0, 0.3);
+}
+
+.card3:hover {
+    transform: translateY(-17px);
+}
+
+.card3 h3 {
+    color: brown;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.Underground {
+    background-color: rgb(145, 93, 93);
+}
+
+.FooterNav {
+    text-align: center;
+}
+
+.Sites {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 25px;
+}
+
+.Sites>li>a {
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 60px;
+}
+
+.FooterNav p {
+    color: aliceblue;
+    font-size: 16px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
